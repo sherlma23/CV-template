@@ -1,0 +1,43 @@
+\CN{
+    \makerubrichead{研究成果}
+    \printbibliography[heading={subbibliography},title={会议论文},type=inproceedings]
+
+    \printbibliography[heading={subbibliography},title={期刊论文},type=article]
+}
+
+\EN{
+    %% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own
+    \makerubrichead{Research Publications}
+    % \textbf{\large Journal}
+    % \subrubric{Journal}
+    % \section*{Journal Articles}
+    % \entry
+    % {\cvlabelnum{1}} % 产生红圈编号
+    % {\textbf{Z. Ma} and J. He, “Cryptanalysis and improvement of a multi-factor authenticated key exchange protocol,” \emph{International Journal of Network Security}, vol. 25, no. 5, pp. 764-776, Sep. 2023, ISSN: 1816-353X.}
+
+    % \textbf{conference}
+    % \subrubric{Conference}
+    % \section*{Journal Articles}
+    % \entry
+    % {\cvlabelnum{1}}
+    % {W. Jia, Z. Yang, and \textbf{Z. Ma}, “Lightweight leakage-resilient authenticated key exchange for industrial internet of things,” in \emph{TrustCom}, IEEE, 2024, pp. 1051-1059.}
+
+    % \entry
+    % {\cvlabelnum{2}}
+    % {\textbf{Z. Ma} and J. He, “Outsider key compromise impersonation attack on a multi-factor authenticated key exchange protocol,” in \emph{ACNS Workshops}, ser. Lecture Notes in Computer Science, vol. 13285, Springer, 2022, pp. 320-337.}
+
+
+    %% Assuming you've already given \addbibresource{own-bib.bib} in the main doc. Right? Right???
+    % \nocite{*}
+
+    %% If you just want everything in one list
+    % \printbibliography[heading={none}]
+
+    \printbibliography[heading={subbibliography},title={Conference},type=inproceedings]
+
+    \printbibliography[heading={subbibliography},title={Journal},type=article]
+
+
+    % \printbibliography[heading={subbibliography},title={Books and Chapters},filter={booksandchapters}]
+
+}

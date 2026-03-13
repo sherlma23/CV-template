@@ -1,0 +1,13 @@
+# 忽略以下文件的推送, 以下文件必须从一开始就未被 track
+*.log
+*.aux
+*.bbl
+*.out
+*.synctex.gz
+*.toc
+*.blg
+*.pdf
+*.bcf
+*.run.xml
+*.cut
+.build/
